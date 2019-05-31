@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSmallBedroom"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Switch
+        android:id="@+id/small_bedroom_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:text="Lights"
+        android:background="#D32F2F"/>
+
+    <Switch
+        android:id="@+id/small_bedroom_fan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CategoryStyle"
+        android:layout_marginTop="16dp"
+        android:text="Fan"
+        android:background="#FFB74D"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B0BEC5"></View>
+
+    <TextView
+        android:id="@+id/speed_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speed:-"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:background="#FFB74D"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+
+    <SeekBar
+        android:id="@+id/small_bedroom_fan_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="0"
+        android:max="4"
+        android:progress="0"
+        android:background="#FFB74D"
+        android:thumbTint="#33691E"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="    0"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="      1"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="          2"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="             3"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="                 4"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

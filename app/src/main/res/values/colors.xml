@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorHall">#FF4081</color>
+    <color name="colorMasterBedroom">#448AFF</color>
+    <color name="colorSmallBedroom">#80CBC4</color>
+    <color name="colorKitchen">#FFA726</color>
+</resources>
